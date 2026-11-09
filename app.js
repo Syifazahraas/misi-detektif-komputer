@@ -43,7 +43,7 @@ const questions = [
 ];
 
 function mascot(extraClass=''){
-  return `<img class="${extraClass}" src="assets/detective-laptop.svg" alt="Maskot laptop detektif membawa kaca pembesar">`;
+  return `<img class="${extraClass}" src="detective-laptop.svg" alt="Maskot laptop detektif membawa kaca pembesar">`;
 }
 function pageHeading(kicker,title,subtitle){return `<div class="page-heading"><div style="text-align:center"><span class="eyebrow">${kicker}</span></div><h1 class="page-title">${title}</h1><p class="page-subtitle">${subtitle}</p></div>`;}
 function setPage(page){state.page=page;render();window.scrollTo({top:0,behavior:'smooth'});}
