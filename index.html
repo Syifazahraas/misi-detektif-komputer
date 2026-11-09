@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12345a">
+  <meta name="description" content="Media pembelajaran interaktif Informatika kelas X SMA/Fase E: Misi Detektif Komputer.">
+  <title>Misi Detektif Komputer | Informatika Kelas X SMA</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="bubble bubble-a" aria-hidden="true"></div>
+  <div class="bubble bubble-b" aria-hidden="true"></div>
+  <div class="bubble bubble-c" aria-hidden="true"></div>
+  <div class="bubble bubble-d" aria-hidden="true"></div>
+
+  <div class="app-shell">
+    <header class="site-header">
+      <a class="brand" href="#beranda" aria-label="Misi Detektif Komputer - Beranda" data-page-link="home">
+        <span class="brand-emblem" aria-hidden="true">
+          <span class="brand-hat">🕵️</span>
+          <span class="brand-glass">⌕</span>
+        </span>
+        <span class="brand-words"><strong>Misi Detektif</strong><b>Komputer</b></span>
+      </a>
+      <p class="header-note">Petualangan belajar Informatika kelas X SMA · Fase E</p>
+      <nav class="main-nav" aria-label="Navigasi utama">
+        <button class="nav-link active" data-page="home"><span>⌂</span> Beranda</button>
+        <button class="nav-link" data-page="materi"><span>▤</span> Materi</button>
+        <button class="nav-link" data-page="simulasi"><span>▷</span> Simulasi</button>
+        <button class="nav-link" data-page="misi"><span>◎</span> Misi Detektif</button>
+        <button class="nav-link" data-page="evaluasi"><span>☷</span> Evaluasi</button>
+      </nav>
+    </header>
+
+    <main id="app-main" tabindex="-1">
+      <section class="loading-state" aria-live="polite">Menyiapkan ruang penyelidikan...</section>
+    </main>
+
+    <footer class="site-footer">
+      <span>🔎 Misi Detektif Komputer</span>
+      <span>Belajar · Mencoba · Menyelidiki</span>
+    </footer>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
