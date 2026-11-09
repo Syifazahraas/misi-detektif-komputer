@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 420" role="img" aria-labelledby="title desc">
+<title id="title">Maskot laptop detektif</title><desc id="desc">Laptop biru lucu memakai topi detektif dan membawa kaca pembesar.</desc>
+<defs>
+  <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a9f1ff"/><stop offset="1" stop-color="#35bde9"/></linearGradient>
+  <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f9fdff"/><stop offset="1" stop-color="#9edcf5"/></linearGradient>
+  <linearGradient id="hat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd17b"/><stop offset="1" stop-color="#e58b25"/></linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="9" stdDeviation="7" flood-color="#12345a" flood-opacity=".2"/></filter>
+</defs>
+<ellipse cx="205" cy="390" rx="145" ry="17" fill="#12345a" opacity=".12"/>
+<!-- cape --> <path d="M92 183 Q44 216 63 302 Q104 324 148 294 L173 205Z" fill="#e88d28" stroke="#12345a" stroke-width="7" stroke-linejoin="round"/>
+<path d="M83 231 Q111 244 143 228" fill="none" stroke="#ffd17b" stroke-width="8" stroke-linecap="round"/>
+<!-- legs --> <path d="M153 319 L143 364" stroke="#12345a" stroke-width="15" stroke-linecap="round"/><path d="M238 319 L257 364" stroke="#12345a" stroke-width="15" stroke-linecap="round"/>
+<path d="M112 366 Q138 349 162 367 L163 383 Q135 394 105 382Z" fill="#f8fdff" stroke="#12345a" stroke-width="6"/><path d="M235 367 Q260 350 286 367 L295 382 Q265 395 235 382Z" fill="#f8fdff" stroke="#12345a" stroke-width="6"/>
+<!-- laptop screen --> <g filter="url(#shadow)"><rect x="88" y="110" width="190" height="190" rx="22" fill="#1673b8" stroke="#12345a" stroke-width="9"/><rect x="101" y="123" width="164" height="160" rx="13" fill="url(#screen)" stroke="#eafaff" stroke-width="5"/>
+<!-- face --> <ellipse cx="153" cy="190" rx="14" ry="18" fill="#fff"/><ellipse cx="157" cy="193" rx="6" ry="10" fill="#12345a"/><path d="M208 190 Q222 178 236 188" fill="none" stroke="#12345a" stroke-width="8" stroke-linecap="round"/><path d="M165 226 Q189 248 215 224" fill="none" stroke="#12345a" stroke-width="8" stroke-linecap="round"/><path d="M178 226 Q190 233 202 226" fill="#ff8b86"/>
+<!-- keyboard base --> <path d="M83 298 L283 298 L316 329 Q320 340 303 344 L61 344 Q47 340 55 328Z" fill="url(#body)" stroke="#12345a" stroke-width="8"/><path d="M100 308 H274 M91 319 H285 M82 330 H297" stroke="#6aa9d0" stroke-width="5" stroke-linecap="round"/></g>
+<!-- detective hat --> <g filter="url(#shadow)"><path d="M95 111 Q109 48 177 43 Q242 42 269 103 L245 119 L116 126Z" fill="url(#hat)" stroke="#12345a" stroke-width="8"/><path d="M81 111 Q158 83 281 108 Q295 115 277 128 Q177 153 83 132 Q65 124 81 111Z" fill="#d97820" stroke="#12345a" stroke-width="8"/><path d="M121 68 L238 102 M173 46 L185 112" stroke="#f6b34d" stroke-width="7" opacity=".8"/></g>
+<!-- left arm --> <path d="M91 205 Q47 202 42 240" fill="none" stroke="#12345a" stroke-width="13" stroke-linecap="round"/><path d="M43 235 Q23 233 22 251 Q28 270 48 263 L61 249Z" fill="#fff" stroke="#12345a" stroke-width="6"/>
+<!-- magnifying glass arm --> <path d="M278 202 Q310 195 326 218" fill="none" stroke="#12345a" stroke-width="13" stroke-linecap="round"/><path d="M323 217 L343 236" stroke="#d97820" stroke-width="14" stroke-linecap="round"/><circle cx="350" cy="178" r="45" fill="#eafaff" stroke="#e58b25" stroke-width="13"/><circle cx="350" cy="178" r="33" fill="#83e4fa" stroke="#fff" stroke-width="5"/><path d="M332 157 Q348 143 365 157" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+<!-- badge --> <rect x="108" y="260" width="40" height="31" rx="8" fill="#ffb84d" stroke="#12345a" stroke-width="5"/><path d="M118 275 H138" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<!-- sparkles --> <path d="M300 76 L314 56 M318 87 L340 78 M71 79 L58 63" stroke="#ff9d24" stroke-width="8" stroke-linecap="round"/>
+</svg>
